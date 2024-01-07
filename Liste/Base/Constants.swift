@@ -11,9 +11,6 @@ struct Constants {
     static var shared: Constants = .init()
 
     var isMocked: Bool {
-        if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] == "" {
-            return true
-        }
         return false
     }
     let baseURL = "https://randomuser.me/api/?results=10"
