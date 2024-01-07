@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Liste
+
+  Created by Thomas on 05/01/2023.
+  
+*/
+
+// UserList
+
+"users.title" = "Liste des utilisateurs";
+"users.pullToRefresh" = "Recharger";
+
+
+// UserDetail
+"user.title" = "Titre : %@";
+"user.firstName" = "Prénom : %@";
+"user.lastName" = "Nom : %@";
+"user.location" = "Adresse : ";

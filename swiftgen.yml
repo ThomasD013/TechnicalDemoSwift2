@@ -1,0 +1,7 @@
+strings:
+  inputs: Liste/Base/Resources/Localizable.strings
+  outputs:
+    - output: Liste/Base/Resources/Generated/Strings.swift
+      templateName: structured-swift5
+      params:
+        enumName: Strings
